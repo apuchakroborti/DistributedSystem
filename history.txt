@@ -1,0 +1,1000 @@
+ 1000  ./mk
+ 1001  exit
+ 1002  ./mk
+ 1003  exit
+ 1004  ./make
+ 1005  yacc -d ass.y
+ 1006  flex ass.l
+ 1007  gcc lex.yy.c y.tab.c -ll -lm
+ 1008  ./make
+ 1009  yacc -d ass.y
+ 1010  flex ass.l
+ 1011  gcc lex.yy.c y.tab.c -ll -lm
+ 1012  ./a.out
+ 1013  ./make
+ 1014  history
+ 1015  grep java
+ 1016  history -i "java"
+ 1017  history > apu.txt
+ 1018  java -jar weka.jar
+ 1019  exit
+ 1020  java -jar weka.jar
+ 1021  eexit
+ 1022  exit
+ 1023  sudo mv chat /opt/lampp/htdocs
+ 1024  exit
+ 1025  sudo mv index.php main.html style.css /opt/lampp/htdocs
+ 1026  exit
+ 1027  history
+ 1028  sudo systemctl stop apache2.service
+ 1029  sudo /opt/lampp/lampp start
+ 1030  exit
+ 1031  sudo systemctl stop apache2.service
+ 1032  sudo /opt/lampp/lampp start
+ 1033  sudo systemctl stop apache2.service
+ 1034  exit
+ 1035  sudo systemctl stop apache2.service
+ 1036  sudo /opt/lampp/lampp start
+ 1037  sudo systemctl stop apache2.service
+ 1038  exit
+ 1039  ./make
+ 1040  exit
+ 1041  ./make
+ 1042  cd
+ 1043  sudo apt-get install spim
+ 1044  sudo apt-get -f install spim
+ 1045  exit
+ 1046  gzip -d spim.tar.gz
+ 1047  uncompress spim.tar.Z
+ 1048  tar xf spim.tar
+ 1049  Configure
+ 1050  cd spim-8.0/
+ 1051  ls
+ 1052  cd spim/
+ 1053  ls
+ 1054  Configure
+ 1055  ./Configure
+ 1056  xmkmf
+ 1057  sudo apt install xutils-dev
+ 1058  make
+ 1059  make install
+ 1060  exit
+ 1061  ./make
+ 1062  exit
+ 1063  yacc -d subc.y
+ 1064  flex subc.l
+ 1065  gcc lex.yy.c y.tab.c -o execute
+ 1066  ./execute <input
+ 1067  exit
+ 1068  ./mk
+ 1069  exit
+ 1070  ./execute <input
+ 1071  exit
+ 1072  ./make
+ 1073  exit
+ 1074  ./mk
+ 1075  exit
+ 1076  ./mk
+ 1077  exit
+ 1078  ./mk
+ 1079  clear
+ 1080  cd
+ 1081  history > history.txt
+ 1082  java -jar weka.jar
+ 1083  ./make
+ 1084  chmod 777 make
+ 1085  ./make
+ 1086  exit
+ 1087  ./make
+ 1088  ./make
+ 1089  exit
+ 1090  ./mk
+ 1091  exit
+ 1092  ./mk
+ 1093  exit
+ 1094  ./make
+ 1095  exit
+ 1096  ./mk
+ 1097  ./make
+ 1098  exit
+ 1099  ./make
+ 1100  exit
+ 1101  ./make
+ 1102  gcc -o d3v2 D3ToD2_v2.c -lglut -lGL -lGLU
+ 1103  gcc -o d3v2 D3ToD2_v2.c -lglut -lGL -lGLU -lm
+ 1104  ./d3v2 
+ 1105  exit
+ 1106  ./cube
+ 1107  chmod 777 cube
+ 1108  ./cube
+ 1109  chmod 777 anando
+ 1110  ./anando 
+ 1111  exit
+ 1112  gcc -o prj projection.c -lglut -lGL -lGLU -lm
+ 1113  gcc -o proj proj.cpp -lglut -lGL -lGLU -lm
+ 1114  ./proj
+ 1115  chmod 777 mk_projection 
+ 1116  ./mk_projection 
+ 1117  chmod 777 mk_proj1
+ 1118  ./mk_proj1
+ 1119  chmod 777 mk_proj1
+ 1120  ./mk_proj1
+ 1121  ./mk_projection1 
+ 1122  ./mk_projection
+ 1123  ./mk_proj1
+ 1124  exit
+ 1125  chmod 777 make_cube 
+ 1126  ./make_cube 
+ 1127  ./mk_proj1
+ 1128  exit
+ 1129  ./mk_proj1
+ 1130  chmod 777 rectangle
+ 1131  chmod 777 rectangle_mk 
+ 1132  ./rectangle_mk 
+ 1133  ./mk_proj1
+ 1134  chmod 777 shad_cube 
+ 1135  ./shad_cube 
+ 1136  exit
+ 1137  ./make
+ 1138  exit
+ 1139  ./shad_cube 
+ 1140  exit
+ 1141  chmod 777 shad_cube
+ 1142  ./shad_cube 
+ 1143  exit
+ 1144  ./shad_cube 
+ 1145  chmod 777 mk_t 
+ 1146  ./mk_t
+ 1147  clear
+ 1148  ./mk_t
+ 1149  gcc -o lab11cow lab11cow.c -lglut -lGL -lGLU -lm
+ 1150  gcc -o lab11cow lab11cow.c -lglut -lGL -lGLU
+ 1151  ./mk_t
+ 1152  gcc -o lab11cow lab11cow.c -lglut -lGL -lGLU
+ 1153  ./mk_t
+ 1154  ./mk
+ 1155  spim
+ 1156  sudo apt install spim
+ 1157  spim
+ 1158  sudo apt install spim
+ 1159  sudo apt-get install spim
+ 1160  clear
+ 1161  sudo apt-get install spim
+ 1162  sudo apt-get update 
+ 1163  cd /etc/
+ 1164  ls
+ 1165  cd update-motd.d/
+ 1166  ls
+ 1167  cd ..
+ 1168  ls
+ 1169  cd update-manager/
+ 1170  ls
+ 1171  cd 
+ 1172  sudo apt-get install spim
+ 1173  sudo apt-get update 
+ 1174  sudo apt-get install spim
+ 1175  sudo apt-get -f  install spim
+ 1176  strcpy($$.code,$2.code);//lw dest,src
+ 1177  //strcat($$.code,"lw $t1,$t0\n");
+ 1178  //strcat($$.code,$3.code);
+ 1179  strcat($$.code,"sw $t0,$v0\n");//prob
+ 1180  strcat($$.code,"jr $ra\n");//prob
+ 1181  //strcat($$.code,"seq $t0,$t1,$t2\n");
+ 1182  /*
+ 1183  strcpy($$.code,$2.code);
+ 1184  strcat($$.code,"sw $a0 0($sp) \n");
+ 1185  strcat($$.code,"addiu $sp $sp -4\n");
+ 1186  strcat($$.code,"jr $ra\n");*/
+ 1187  clear
+ 1188  ls
+ 1189  sudo apt-get install spim
+ 1190  sudo apt-get update 
+ 1191  sudo apt-get --fix-missing  install spim
+ 1192  sudo apt-get install mysql-server-5.7 
+ 1193  sudo apt-get update 
+ 1194  sudo apt-get install mysql-server-5.7 
+ 1195  sudo apt-get autoremove 
+ 1196  sudo apt-get autoclean 
+ 1197  sudo apt-get autoremove 
+ 1198  sudo apt-get remove --purge mysql*
+ 1199  sudo apt-get -f remove --purge mysql*
+ 1200  sudo apt-get -f remove --purge mysql-server
+ 1201  clear
+ 1202  sudo apt-get update 
+ 1203  ;
+ 1204  cd /etc/apt
+ 1205  ls
+ 1206  gedit sources.list
+ 1207  ls
+ 1208  cd sources.list.d/
+ 1209  ls
+ 1210  rm *
+ 1211  sudo rm *
+ 1212  ls
+ 1213  cd ..
+ 1214  ls
+ 1215  cp sources.list sources.list.previous
+ 1216  sudo cp sources.list sources.list.previous
+ 1217  ls
+ 1218  rm sources.list
+ 1219  sudo rm sources.list
+ 1220  clea
+ 1221  clear
+ 1222  cd
+ 1223  ls
+ 1224  sudo apt-get update 
+ 1225  clea
+ 1226  clear
+ 1227  sudo apt-get update 
+ 1228  sudo apt-get upgrade 
+ 1229  sudo apt-get update 
+ 1230  sudo apt-cache 
+ 1231  sudo apt-cache policy 
+ 1232  sudo apt-cache policy | grep trust
+ 1233  sudo apt-cache policy | grep xeni
+ 1234  sudo apt-get install ansible/trusty-backports
+ 1235  sudo do-release-upgrade 
+ 1236  sudo gedit /etc/apt/sources.list
+ 1237  sudo apt-get update 
+ 1238  clear
+ 1239  sudo apt-get install spim
+ 1240  clear
+ 1241  spim
+ 1242  clear
+ 1243  spim load output.txt 
+ 1244  ./mk
+ 1245  spim load output.txt 
+ 1246  xit
+ 1247  exit
+ 1248  ./mk
+ 1249  spim load output.txt 
+ 1250  ./mk
+ 1251  spim load output.txt 
+ 1252  ./mk
+ 1253  spim load output.txt 
+ 1254  ./mk
+ 1255  spim load output.txt 
+ 1256  ./mk
+ 1257  spim load output.txt 
+ 1258  ./mk
+ 1259  spim load output.txt 
+ 1260  ./mk
+ 1261  spim load output.txt 
+ 1262  ./mk
+ 1263  spim load output.txt 
+ 1264  ./mk
+ 1265  spim load output.txt 
+ 1266  ./mk
+ 1267  spim load output.txt 
+ 1268  ./mk
+ 1269  spim load output.txt 
+ 1270  ./mk
+ 1271  spim load output.txt 
+ 1272  ./mk
+ 1273  spim load output.txt 
+ 1274  ./mk
+ 1275  spim load output.txt 
+ 1276  ./mk
+ 1277  spim load output.txt 
+ 1278  ./mk
+ 1279  spim load output.txt 
+ 1280  ./mk
+ 1281  spim load output.txt 
+ 1282  ./mk
+ 1283  spim load output.txt 
+ 1284  exit
+ 1285  ./mk
+ 1286  exit
+ 1287  ./mk
+ 1288  yacc -d ass4_apu.y
+ 1289  flex ass4_apu.l
+ 1290  gcc lex.yy.c y.tab.c -lfl -o ass4
+ 1291  yacc -d ass4_apu.y
+ 1292  flex ass4_apu.l
+ 1293  gcc lex.yy.c y.tab.c -lfl -o ass4
+ 1294  yacc -d ass4_apu.y
+ 1295  flex ass4_apu.l
+ 1296  gcc lex.yy.c y.tab.c -lfl -o ass4
+ 1297  ./ass4
+ 1298  exit
+ 1299  spim load output.txt
+ 1300  ./mk
+ 1301  spim load output.txt
+ 1302  ./mk
+ 1303  spim load output.txt 
+ 1304  ./mk
+ 1305  spim load output.txt 
+ 1306  ./mk
+ 1307  spim load output.txt 
+ 1308  ./mk
+ 1309  spim load output.txt 
+ 1310  ./mk
+ 1311  spim load output.txt 
+ 1312  --help spim
+ 1313  spim --help
+ 1314  ./mk
+ 1315  spim read out.s
+ 1316  run
+ 1317  spim run
+ 1318  ./mk
+ 1319  spim read out.s
+ 1320  ./mk
+ 1321  spim read out.s
+ 1322  exit
+ 1323  ./mk
+ 1324  spim read out.s
+ 1325  ./mk
+ 1326  spim read out.s
+ 1327  ./mk
+ 1328  spim read out.s
+ 1329  ./mk
+ 1330  spim read out.s
+ 1331  ./mk
+ 1332  spim read out.s
+ 1333  ./mk
+ 1334  spim read out.s
+ 1335  exit
+ 1336  ./mk
+ 1337  spim read out.s
+ 1338  ./mk
+ 1339  spim read out.s
+ 1340  ./mk
+ 1341  spim read out.s
+ 1342  ./mk
+ 1343  spim read out.s
+ 1344  spim read out1.s
+ 1345  ./mk
+ 1346  spim read out1.s
+ 1347  ./mk
+ 1348  spim read out1.s
+ 1349  ./mk
+ 1350  spim read out1.s
+ 1351  ./mk
+ 1352  spim read out1.s
+ 1353  ./mk
+ 1354  spim read out1.s
+ 1355  exit
+ 1356  ./mk
+ 1357  spim read out1.s
+ 1358  ./mk
+ 1359  spim read out1.s
+ 1360  ./mk
+ 1361  spim read out1.s
+ 1362  ./mk
+ 1363  spim read out1.s
+ 1364  ./mk
+ 1365  spim read out1.s
+ 1366  ./mk
+ 1367  ./mk
+ 1368  spim read out1.s
+ 1369  ./mk
+ 1370  spim read out1.s
+ 1371  spim read s1.s
+ 1372  ./mk
+ 1373  spim read out1.s
+ 1374  ./mk
+ 1375  spim read out1.s
+ 1376  exit
+ 1377  ./mk
+ 1378  spim read out1.s
+ 1379  ./mk
+ 1380  spim read out1.s
+ 1381  ./mk
+ 1382  spim read out1.s
+ 1383  ./mk
+ 1384  spim read out1.s
+ 1385  ./mk
+ 1386  spim read out1.s
+ 1387  ./mk
+ 1388  spim read out1.s
+ 1389  ./mk
+ 1390  spim read out1.s
+ 1391  ./mk
+ 1392  spim read out1.s
+ 1393  ./mk
+ 1394  spim read out1.s
+ 1395  ./mk
+ 1396  spim read out1.s
+ 1397  ./mk
+ 1398  spim read out1.s
+ 1399  ./mk
+ 1400  spim read out1.s
+ 1401  ./mk
+ 1402  spim read out1.s
+ 1403  ./mk
+ 1404  spim read out1.s
+ 1405  exit
+ 1406  ./mk
+ 1407  spim read out1.s
+ 1408  ./mk
+ 1409  spim read out1.s
+ 1410  ./mk
+ 1411  spim read out1.s
+ 1412  ./mk
+ 1413  spim read out1.s
+ 1414  ./mk
+ 1415  spim read out1.s
+ 1416  ./mk
+ 1417  spim read out1.s
+ 1418  ./mk
+ 1419  spim read out1.s
+ 1420  ./mk
+ 1421  spim read out1.s
+ 1422  ./mk
+ 1423  spim read out1.s
+ 1424  ./mk
+ 1425  spim read out1.s
+ 1426  ./mk
+ 1427  spim read out1.s
+ 1428  ./mk
+ 1429  spim read out1.s
+ 1430  ./mk
+ 1431  spim read out1.s
+ 1432  ./mk
+ 1433  spim read out1.s
+ 1434  ./mk
+ 1435  spim read out1.s
+ 1436  ./mk
+ 1437  spim read out1.s
+ 1438  ./mk
+ 1439  spim read out1.s
+ 1440  ./mk
+ 1441  spim read out1.s
+ 1442  ./mk
+ 1443  spim read out1.s
+ 1444  ./mk
+ 1445  spim read out1.s
+ 1446  ./mk
+ 1447  spim read out1.s
+ 1448  ./mk
+ 1449  spim read out1.s
+ 1450  ./mk
+ 1451  spim read out1.s
+ 1452  ./mk
+ 1453  spim read out1.s
+ 1454  ./mk
+ 1455  spim read out1.s
+ 1456  ./mk
+ 1457  spim read out1.s
+ 1458  ./mk
+ 1459  spim read out1.s
+ 1460  ./mk
+ 1461  spim read out1.s
+ 1462  ./mk
+ 1463  spim read out1.s
+ 1464  ./mk
+ 1465  spim read out1.s
+ 1466  ./mk
+ 1467  spim read out1.s
+ 1468  ./mk
+ 1469  spim read out1.s
+ 1470  ./mk
+ 1471  spim read out1.s
+ 1472  exit
+ 1473  sudo apt-get build-dep python3.2
+ 1474  sudo apt-get install libreadline-dev libncurses5-dev libssl1.0.0 tk8.5-dev zlib1g-dev liblzma-dev
+ 1475  sudo apt-get install python-crypto
+ 1476  exit
+ 1477  ./mk
+ 1478  spim load out1.s
+ 1479  exit
+ 1480  sudo systemctl stop apache2.service
+ 1481  sudo /opt/lampp/lampp start
+ 1482  sudo systemctl stop apache2.service
+ 1483  exit
+ 1484  ./mk
+ 1485  ./make
+ 1486  sudo systemctl stop apache2.service
+ 1487  sudo /opt/lampp/lampp start
+ 1488  sudo systemctl stop apache2.service
+ 1489  ./mk
+ 1490  spim load out1.s
+ 1491  ./mk
+ 1492  exit
+ 1493  exit
+ 1494  ./mk
+ 1495  spim load out2.s 
+ 1496  exit
+ 1497  mv c /opt/lampp/htdocs 
+ 1498  sudo mv c /opt/lampp/htdocs 
+ 1499  exit
+ 1500  mv chat /opt/lampp/htdocs 
+ 1501  sudo mv chat /opt/lampp/htdocs 
+ 1502  exit
+ 1503  sudo mv chat1 /opt/lampp/htdocs 
+ 1504  cd
+ 1505  sudo systemctl stop apache2.service
+ 1506  sudo /opt/lampp/lampp start
+ 1507  exit
+ 1508  sudo mkdir apu
+ 1509  cd apu
+ 1510  gedit main.html
+ 1511  sudo mv main.html apu
+ 1512  cd ..
+ 1513  sudo mv main.html apu
+ 1514  cd apu/
+ 1515  ls
+ 1516  sudo mv main.html /opt/lampp/htdocs/
+ 1517  ls
+ 1518  sudo gedit m.html
+ 1519  exit
+ 1520  sudo mv autol /opt/lampp/htdocs/
+ 1521  cd
+ 1522  sudo systemctl stop apache2.service
+ 1523  sudo /opt/lampp/lampp start
+ 1524  sudo systemctl stop apache2.service
+ 1525  sudo /opt/lampp/lampp start
+ 1526  sudo mv fbChatSource /opt/lampp/htdocs/
+ 1527  exit
+ 1528  sudo apt-get install unrar
+ 1529  exit
+ 1530  sudo mv simpchat /opt/lampp/htdocs/
+ 1531  exit
+ 1532  sudo systemctl stop apache2.service
+ 1533  sudo /opt/lampp/lampp start
+ 1534  exit
+ 1535  sudo mv php-facebook-like-Chat-master /opt/lampp/htdocs/
+ 1536  xit
+ 1537  exit
+ 1538  sudo apt-get install git
+ 1539  exit
+ 1540  git config --global user.name "apuchakroborti"
+ 1541  git config --global user.email "apuchakroborti50@gmail.com"
+ 1542  git init PsycoHelp
+ 1543  git add cd PsycoHelp/
+ 1544  cd PsycoHelp/
+ 1545  git remote add origin https://github.com/apuchakroborti/PsycoHelp
+ 1546  git push origin master
+ 1547  cd ..
+ 1548  git push origin master
+ 1549  git remote add origin https://github.com/apuchakroborti/PsycoHelp
+ 1550  git init PsycoHelp
+ 1551  git remote add origin https://github.com/apuchakroborti/PsycoHelp
+ 1552  git push origin master
+ 1553  exit
+ 1554  ls
+ 1555  sudo mv PsycoHelp/ opt/lampp/htdocs
+ 1556  sudo mv PsycoHelp opt/lampp/htdocs
+ 1557  sudo mv PsycoHelp /opt/lampp/htdocs
+ 1558  git init
+ 1559  git remote add origin https://github.com/apuchakroborti/PsycoHelp
+ 1560  git commit -m "PsycoHelp"
+ 1561  git config --global user.name "apuchakroborti"
+ 1562  git config --global user.email "apuchakroborti50@gmail.com"
+ 1563  git add --all
+ 1564  git commit -m "PsycoHelp"
+ 1565  git push origin master
+ 1566  exit
+ 1567  sudo mv fbc /opt/lampp/htdocs/
+ 1568  exit
+ 1569  sudo mv psyco_help /opt/lampp/htdocs/
+ 1570  exit
+ 1571  sudo systemctl stop apache2.service
+ 1572  sudo /opt/lampp/lampp start
+ 1573  exit
+ 1574  cd /opt/lampp/htdocs/psyco_help 
+ 1575  git init
+ 1576  git commit -m "first commit"
+ 1577  git init
+ 1578  git commit -m "first commit"
+ 1579  echo "# psyhelp" >> README.md
+ 1580  git init
+ 1581  git add README.md
+ 1582  git commit -m "first commit"
+ 1583  git remote add origin https://github.com/swasti007/psyhelp.git
+ 1584  git push -u origin master
+ 1585  git add *
+ 1586  git push -u origin master
+ 1587  git add --all
+ 1588  git init
+ 1589  git remote add origin https://github.com/swasti007/psyhelp
+ 1590  git commit -m "initial commit"
+ 1591  git add -all
+ 1592  git push origin master
+ 1593  t
+ 1594  exit
+ 1595  sudo mv schedule /opt/lampp/htdocs/
+ 1596  exit
+ 1597  git push origin master
+ 1598  exit
+ 1599  git init
+ 1600  git remote add origin file:///opt/lampp/htdocs/psyco_help 
+ 1601  ls
+ 1602  git config -global user.email "apuchakroborti50@gmail.com"
+ 1603  git config --global user.email "apuchakroborti50@gmail.com"
+ 1604  git config --global user.name "apuchakroborti"
+ 1605  git commit -m "Minds friend"
+ 1606  git add --all
+ 1607  git push origin master
+ 1608  git commit -m "Minds friend"
+ 1609  git add --all
+ 1610  git push origin master
+ 1611  ls -a
+ 1612  sudo rm .git
+ 1613  rm -f .git
+ 1614  rm -rf .git
+ 1615  git config --global user.email "apuchakroborti50@gmail.com"
+ 1616  clear
+ 1617  git config --global user.name "apuchakroborti"
+ 1618  git commit -m "Minds friend"
+ 1619  git init
+ 1620  git config --global user.email "apuchakroborti50@gmail.com"
+ 1621  git config --global user.name "apuchakroborti"
+ 1622  git commit -m "Minds friend"
+ 1623  git add --all
+ 1624  git commit -m "Minds friend"
+ 1625  git push origin master
+ 1626  git remote add origin https://github.com/apuchakroborti/Mind-s-Friend
+ 1627  git add --all
+ 1628  git commit -m "Minds friend"
+ 1629  git push origin master
+ 1630  exit
+ 1631  git init
+ 1632  git remote add origin https://github.com/apuchakroborti/Mind-s-Friend 
+ 1633  exit
+ 1634  sudo systemctl stop apache2.service
+ 1635  sudo /opt/lampp/lampp start
+ 1636  exit
+ 1637  rm -rf .git
+ 1638  history > command_history.txt
+ 1639  git init
+ 1640  git config -global user.email "apuchakroborti50@gmail.com"
+ 1641  git config --global user.email "apuchakroborti50@gmail.com"
+ 1642  config --global user.name "apuchakroborti"
+ 1643  git config --global user.name "apuchakroborti"
+ 1644  git commit -m "Minds Friend"
+ 1645  git add --all
+ 1646  git commit -m "Minds Friend"
+ 1647  git remote add origin https://github.com/apuchakroborti/Mind-s-Friend 
+ 1648  git commit -m "Minds Friend"
+ 1649  git push origin master
+ 1650  free -m
+ 1651  vmstat -m
+ 1652  vmstat -s
+ 1653  sudo dmidecode -t 17
+ 1654  cat /proc/meminfo
+ 1655  sudo sh -c 'echo 1 >/proc/sys/vm/drop_caches'
+ 1656  exit
+ 1657  ls config.inc.php 
+ 1658  ls -l config.inc.php 
+ 1659  sudo gedit config.inc.php 
+ 1660  gedit config.inc.php 
+ 1661  clear
+ 1662  sudo systemctl stop apache2.service
+ 1663  sudo /opt/lampp/lampp start
+ 1664  sudo gedit config.inc.php 
+ 1665  sudo systemctl stop apache2.service
+ 1666  sudo /opt/lampp/lampp start
+ 1667  sudo /opt/lampp/lampp stop
+ 1668  sudo /opt/lampp/lampp start
+ 1669  sudo gedit config.inc.php 
+ 1670  exit
+ 1671  rm -rf .git
+ 1672  ls
+ 1673  git init
+ 1674  git config --global user.email "apuchakroborti50@gmail.com"
+ 1675  git config --global user.name "apuchakroborti"
+ 1676  remote add origin https://github.com/apuchakroborti/Mind-s-Friend
+ 1677  git remote add origin https://github.com/apuchakroborti/Mind-s-Friend
+ 1678  git add -all
+ 1679  git commit -m "Minds friend"
+ 1680  git add -all
+ 1681  git add --all
+ 1682  git commit -m "Minds friend"
+ 1683  git push origin master
+ 1684  history
+ 1685  git push origin master
+ 1686  git add -all
+ 1687  git add --all
+ 1688  git commit -m "Mind's Friend"
+ 1689  git add --all
+ 1690  git push origin master
+ 1691  sudo apt install gjs gir1.2-ibus-1.0 libibus-1.0-5 libibus-1.0-dev ibus-gtk ibus-gtk3 ibus-clutter ibus-qt4
+ 1692  sudo dpkg -i avro_2.1-3_all.deb
+ 1693  ibus restart
+ 1694  sudo dpkg -i avro_2.1-3_all.deb
+ 1695  ls
+ 1696  ls  avro_2.1-3_all.deb
+ 1697  sudo apt install gjs gir1.2-ibus-1.0 libibus-1.0-5 libibus-1.0-dev ibus-gtk ibus-gtk3 ibus-clutter ibus-qt4
+ 1698  sudo dpkg -i avro_2.1-3_all.deb
+ 1699  sudo apt install gjs gir1.2-ibus-1.0 libibus-1.0-5 libibus-1.0-dev ibus-gtk ibus-gtk3 ibus-clutter ibus-qt4
+ 1700  wget "https://github.com/maateen/avro/releases/download/v2.1/avro_2.1-3_all.deb"
+ 1701  sudo dpkg -i avro_2.1-3_all.deb
+ 1702  ibus restart
+ 1703  sudo apt install gjs gir1.2-ibus-1.0 libibus-1.0-5 libibus-1.0-dev ibus-gtk ibus-gtk3 ibus-clutter ibus-qt4
+ 1704  wget "https://github.com/maateen/avro/releases/download/v2.1/avro_2.1-3_all.deb"
+ 1705  sudo dpkg -i avro_2.1-3_all.deb.1
+ 1706  ibus restart
+ 1707  g++ b_tree.cpp
+ 1708  shutdown
+ 1709  shutdown -c
+ 1710  suso shutdown
+ 1711  sudo shutdown
+ 1712  exit
+ 1713  sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-1.0:i386
+ 1714  exit
+ 1715  cd /user/local
+ 1716  ls
+ 1717  ls user
+ 1718  ls /
+ 1719  ls /usr
+ 1720  ls /usr/local
+ 1721  exit
+ 1722  sudo mv android-studio /usr/local
+ 1723  cd /usr/local
+ 1724  ls
+ 1725  cd android-studio/bin/
+ 1726  ls
+ 1727  exit
+ 1728  gcc B_plus_tree B_plus_tree.cpp -lncurses
+ 1729  gcc B_plus_tree.cpp -o B_plus_tree -lncurses
+ 1730  exit
+ 1731  shutdown
+ 1732  exit
+ 1733  kill chrome
+ 1734  pid
+ 1735  kill google-chrome
+ 1736  exit
+ 1737  kill google chrom
+ 1738  kill google chrome
+ 1739  pid
+ 1740  ls
+ 1741  exit
+ 1742  cd /
+ 1743  tar -xvzf ns-allinone-2.35.tar.gz
+ 1744  ls ns-allinone-2.35.tar.gz
+ 1745  ls
+ 1746  cd $HOME
+ 1747  ls
+ 1748  ls ns-allinone-2.35.tar.gz
+ 1749  tar -xvzf ns-allinone-2.35.tar.gz
+ 1750  sudo apt-get install build-essential autoconf automake libxmu-dev
+ 1751  sudo apt-get install gcc-4.4
+ 1752  cd ~/ns-allinone-2.35/ns-2.35/linkstate
+ 1753  gedit ls.h
+ 1754  cd ..
+ 1755  cd otcl-1.14/
+ 1756  gedit Makefile.in 
+ 1757  sudo su cd ~/ns-allinone-2.35/./install
+ 1758  cd
+ 1759  sudo su cd ~/ns-allinone-2.35/./install
+ 1760  cd ns-allinone-2.35/
+ 1761  ./install 
+ 1762  sudo gedit ~/.bashrc
+ 1763  exit
+ 1764  ns
+ 1765  exit
+ 1766  ns apu.tcl
+ 1767  ns apu1.tcl
+ 1768  cd ns_simulator/
+ 1769  ls
+ 1770  cd net_turorial/
+ 1771  ls
+ 1772  ns begi.tcl
+ 1773  ns node1.tcl
+ 1774  node1.trace
+ 1775  ns node1.trace
+ 1776  ns node1.tcl
+ 1777  ls
+ 1778  a.trace
+ 1779  ns a.trace
+ 1780  nam a.nam
+ 1781  ns node1.tcl
+ 1782  ls
+ 1783  nam a.nam
+ 1784  ns example1b.tcl 
+ 1785  ns example2.tcl 
+ 1786  ns example3.tcl 
+ 1787  ns example4.tcl 
+ 1788  ns wireless2.tcl 
+ 1789  ns wireless3.tcl 
+ 1790  exit
+ 1791  ns wireless3.tcl 
+ 1792  ns wireless2.tcl 
+ 1793  ping 172.16.5.220
+ 1794  exit
+ 1795  ns example3.tcl 
+ 1796  ./install 
+ 1797  exit
+ 1798  shutdown
+ 1799  shutdown now
+ 1800  kill chrome
+ 1801  sudo kill chrome
+ 1802  pid
+ 1803  resart
+ 1804  kill google-chrome
+ 1805  exit
+ 1806  shutdown now
+ 1807  sudo apt-get install chessx
+ 1808  chessx
+ 1809  exit
+ 1810  sudo add-apt-repository ppa:openshot.developers/ppa
+ 1811  sudo apt-get update
+ 1812  sudo apt-get install openshot-qt
+ 1813  exit 
+ 1814  ar x viber.deb
+ 1815  tar -xvzf control.tar.gz
+ 1816  ./postinst 
+ 1817  sudo ./postinst 
+ 1818  sudo ./preinst 
+ 1819  viber
+ 1820  sudo ./prerm
+ 1821  exit
+ 1822  start rmiregistry
+ 1823  android studio
+ 1824  update-java-alternatives -l
+ 1825  sudo apt-get update
+ 1826  ls
+ 1827  ls android studio
+ 1828  ls android
+ 1829  ls
+ 1830  cd Android_studio/
+ 1831  ls
+ 1832  cd Android
+ 1833  cd
+ 1834  sudo apt-get install openjdk-6-jdk-headless
+ 1835  sudo apt-get install python-software-properties
+ 1836  sudo add-apt-repository ppa:webupd8team/java
+ 1837  sudo apt-get update
+ 1838  sudo apt-get install oracle-java7-installer
+ 1839  sudo apt-get install python-software-properties
+ 1840  ./studio.sh
+ 1841  cd Android
+ 1842  ./studio.sh
+ 1843  cd
+ 1844  cd Android_studio/
+ 1845  ./studio.sh
+ 1846  ls
+ 1847  cd
+ 1848  ls
+ 1849  cd AndroidStudioProjects/
+ 1850  ls
+ 1851  MyApplication/
+ 1852  ls
+ 1853  cd MyApplication/
+ 1854  ls
+ 1855  exit
+ 1856  sudo /opt/android-studio/bin
+ 1857  sudo cd /opt/android-studio/bin
+ 1858  cd /opt/android-studio/bin
+ 1859  cd /opt
+ 1860  ls
+ 1861  cd
+ 1862  sudo add-apt-repository -y ppa:webupd8team/java
+ 1863  sudo apt-get update
+ 1864  sudo apt-get install oracle-java7-installer oracle-java7-set-default
+ 1865  sudo add-apt-repository ppa:paolorotolo/android-studio
+ 1866  sudo apt-get update
+ 1867  sudo apt-get install android-studio
+ 1868  clear
+ 1869  ls
+ 1870  cd Android_studio/
+ 1871  ls
+ 1872  cd android-studio/
+ 1873  ls
+ 1874  cd bin/
+ 1875  ls
+ 1876  ./studio.sh
+ 1877  exit
+ 1878  gcc --version
+ 1879  history
+ 1880  cd Android_studio/
+ 1881  cd bin
+ 1882  ls
+ 1883  cd android-studio/
+ 1884  ls
+ 1885  cd bin
+ 1886  ls
+ 1887  ./studio.sh 
+ 1888  cd Android_studio/
+ 1889  cd android-studio/
+ 1890  cd bin
+ 1891  ./studio.sh 
+ 1892  history
+ 1893  history > history.txt
+ 1894  ls
+ 1895  gedit history.txt 
+ 1896  sudo systemctl stop apache2.service
+ 1897  sudo /opt/lampp/lampp start
+ 1898  sudo systemctl stop apache2.service
+ 1899  exit
+ 1900  apt-get install android-tools-adb
+ 1901  sudo apt-get install android-tools-adb
+ 1902  sudo usermod -aG plugdev $LOGNAME
+ 1903  sudo apt-get install android-tools-adb
+ 1904  sudo add-apt-repository ppa:openjdk-r/ppa  
+ 1905  sudo apt-get update   
+ 1906  sudo apt-get install openjdk-7-jdk  
+ 1907  sudo apt-get install android-tools-adb
+ 1908  sudo apt install debian-archive-keyring
+ 1909  sudo apt-get update   
+ 1910  sudo apt-get install android-tools-adb
+ 1911  sudo apt-get install openjdk-7-jdk  
+ 1912  sudo apt-get install oracle-java7-installer
+ 1913  sudo apt-get install oracle-java7-set-default
+ 1914  sudo add-apt-repository ppa:webupd8team/java
+ 1915  sudo apt update
+ 1916  sudo apt install java-common oracle-java7-installer
+ 1917  sudo apt install oracle-java7-set-default
+ 1918  java -version
+ 1919  sudo add-apt-repository ppa:webupd8team/java
+ 1920  sudo apt-get update
+ 1921  sudo apt-get install oracle-java7-installer
+ 1922  sudo cd /usr
+ 1923  $ adb install-multiple -r /home/apu/AndroidStudioProjects/Keypad/app/build/intermediates/split-apk/debug/slices/slice_0.apk /home/apu/AndroidStudioProjects/Keypad/app/build/intermediates/split-apk/debug/slices/slice_1.apk /home/apu/AndroidStudioProjects/Keypad/app/build/intermediates/split-apk/debug/slices/slice_8.apk /home/apu/AndroidStudioProjects/Keypad/app/build/intermediates/split-apk/debug/slices/slice_3.apk /home/apu/AndroidStudioProjects/Keypad/app/build/intermediates/split-apk/debug/slices/slice_2.apk /home/apu/AndroidStudioProjects/Keypad/app/build/intermediates/split-apk/debug/slices/slice_9.apk /home/apu/AndroidStudioProjects/Keypad/app/build/intermediates/split-apk/debug/dep/dependencies.apk /home/apu/AndroidStudioProjects/Keypad/app/build/intermediates/split-apk/debug/slices/slice_4.apk /home/apu/AndroidStudioProjects/Keypad/app/build/intermediates/split-apk/debug/slices/slice_7.apk /home/apu/AndroidStudioProjects/Keypad/app/build/intermediates/split-apk/debug/slices/slice_6.apk /home/apu/AndroidStudioProjects/Keypad/app/build/intermediates/split-apk/debug/slices/slice_5.apk /home/apu/AndroidStudioProjects/Keypad/app/build/outputs/apk/app-debug.apk 
+ 1924  cd Android_studio/android-studio/bin
+ 1925  ls
+ 1926  ./studio.sh 
+ 1927  cd Android_studio/android-studio/bin
+ 1928  ./studio.sh 
+ 1929  sudo /usr/bin
+ 1930  sudo cd /usr/bin
+ 1931  cd ..
+ 1932  ls
+ 1933  cd ..
+ 1934  ls
+ 1935  cd usr
+ 1936  ls
+ 1937  cd bin
+ 1938  ls
+ 1939  ls dpkg
+ 1940  cd dpkg
+ 1941  gedit dpkg
+ 1942  ls 
+ 1943  cd Desktop/
+ 1944  ls
+ 1945  cd c_plus_plus/
+ 1946  ls
+ 1947  gcc hello.c -o hello1
+ 1948  gcc c_plus_plus.cpp -o c_plus_plus
+ 1949  exit
+ 1950  cd Android_studio/android-studio/bin
+ 1951  lsv
+ 1952  ls
+ 1953  ./studio.sh 
+ 1954  cd Android_studio/android-studio/bin
+ 1955  ./studio.sh 
+ 1956  shutdown
+ 1957  shutdown now
+ 1958  git init
+ 1959  git commit -m "braille keyboard"
+ 1960  git remote add origin https://github.com/apuchakroborti/BrailleKeyboard.git
+ 1961  git push -u origin master
+ 1962  git remote add origin https://github.com/apuchakroborti/BrailleKeyboard.git
+ 1963  git push -u origin master
+ 1964  git add
+ 1965  git add .
+ 1966  git commit -m "braille keyboard"
+ 1967  git remote add origin https://github.com/apuchakroborti/BrailleKeyboard.git
+ 1968  git remote -v
+ 1969  git push origin master
+ 1970  git add
+ 1971  git add .
+ 1972  git commit -m "brailli keyboard"
+ 1973  git remote add origin https://github.com/apuchakroborti/BrailleKeyboard.git
+ 1974  git push origin master
+ 1975  git add
+ 1976  git add all
+ 1977  kill chrome
+ 1978  shutdown now
+ 1979  cd Android_studio/android-studio/bin
+ 1980  ./studio.sh 
+ 1981  cd Android_studio/android-studio/bin
+ 1982  ./studio.sh 
+ 1983  shutdown now
+ 1984  cd Android_studio/android-studio/bin
+ 1985  shutdown now
+ 1986  cd Android_studio/android-studio/bin
+ 1987  ./studio.sh 
+ 1988  ps -aux
+ 1989  ps -aux | grep lib
+ 1990  ps -aux | grep libreoffice
+ 1991  pkill -SIGKILL libreoffice
+ 1992  pkill -SIGKILL office
+ 1993  ps -aux | grep lib
+ 1994  ps -aux | grep libre
+ 1995  clear
+ 1996  exit
+ 1997  shutdown now
+ 1998  hostory > history.txt
+ 1999  history > history.txt
